@@ -1,23 +1,23 @@
 /*****Tipografía******/
 h1 {
-	font-size: 22px;
+	font-family: Arial, sans-serif; font-size: 22px;
 }
 
 h2 {
-	font-size: 18px;
+	font-family: Arial, sans-serif; font-size: 18px;
 }
 
 form h3 {
-	font-size: 1.6em !important;
+	font-family: Arial, sans-serif; font-size: 1.6em !important;
 }
 
 @media (min-width: 991px) {
 	h1 {
-		font-size: 2em;
+		font-family: Arial, sans-serif; font-size: 2em;
 	}
 
 	h2 {
-		font-size: 1.8em;
+		font-family: Arial, sans-serif; font-size: 1.8em;
 	}
 }
 
@@ -153,7 +153,7 @@ a.btn-collapse i.collapseGira {
 }
 
 .panels-row-miargentina .panel h2 {
-	font-size: 1.4em !important;
+	font-family: Arial, sans-serif; font-size: 1.4em !important;
 	/* margin-top: 8px !important; */
 	margin-bottom: 8px !important;
 	font-weight: 600 !important;
@@ -175,13 +175,13 @@ a.btn-collapse i.collapseGira {
 }
 
 .credential-danger-state p.text-danger {
-	font-size: 30px !important;
+	font-family: Arial, sans-serif; font-size: 30px !important;
 	text-transform: uppercase;
 	font-weight: 500;
 }
 
 .panels-row-miargentina .panel h3 {
-	font-size: 1.2em;
+	font-family: Arial, sans-serif; font-size: 1.2em;
 }
 
 .panels-row-miargentina .list-group-item {
@@ -298,7 +298,7 @@ a.btn-collapse i.collapseGira {
 
 @media (max-width: 992px) {
 	.panel-table tr td:first-child {
-		font-weight: bolder;
+		font-weight: bold;
 	}
 
 	.panel-table tr td:last-child {
@@ -428,10 +428,10 @@ a.btn-collapse i.collapseGira {
 }
 
 .fa-05x {
-	font-size: 0.6em;
+	font-family: Arial, sans-serif; font-size: 0.6em;
 }
 .icon-init {
-	font-size: 21px;
+	font-family: Arial, sans-serif; font-size: 21px;
 }
 
 .icon-header {
@@ -572,11 +572,11 @@ a.btn-collapse i.collapseGira {
 }
 
 .dropdown-micuenta li p {
-	font-size: 16px;
+	font-family: Arial, sans-serif; font-size: 16px;
 }
 
 .dropdown-micuenta li small {
-	font-size: 14px;
+	font-family: Arial, sans-serif; font-size: 14px;
 }
 
 .dropdown-micuenta hr,
@@ -732,7 +732,7 @@ a.btn-collapse i.collapseGira {
 	}
 
 	.nav-dashboard li a p {
-		font-size: 0.8em;
+		font-family: Arial, sans-serif; font-size: 0.8em;
 	}
 
 	.dropdown-micuenta .media-body {
@@ -768,7 +768,7 @@ a.btn-collapse i.collapseGira {
 
 @media (max-width: 560px) {
 	.dashboard-sidebar p {
-		font-size: 0.8em;
+		font-family: Arial, sans-serif; font-size: 0.8em;
 	}
 
 	.sidebar {
@@ -955,11 +955,11 @@ a.btn-collapse i.collapseGira {
 	}
 
 	.onboarding-content h2 {
-		font-size: 18px;
+		font-family: Arial, sans-serif; font-size: 18px;
 	}
 
 	.onboarding-content p {
-		font-size: 15px;
+		font-family: Arial, sans-serif; font-size: 15px;
 	}
 
 	.onboarding-control {
@@ -1079,7 +1079,7 @@ a.btn-collapse i.collapseGira {
 }
 
 .licencia-txt {
-	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-family: Arial, sans-serif; font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 @media (max-width: 991px) and (max-height: 991px) {
@@ -1611,7 +1611,7 @@ span.round-tab {
 	z-index: 2;
 	position: relative;
 	text-align: center;
-	font-size: 14px;
+	font-family: Arial, sans-serif; font-size: 14px;
 	color: #fff;
 	flex: 0 0 24px;
 }
@@ -1636,7 +1636,7 @@ span.round-tab i {
 .wizard-head li a h5 {
 	color: #333333;
 	margin: 3px 8px 0;
-	font-size: 14px;
+	font-family: Arial, sans-serif; font-size: 14px;
 	word-break: keep-all;
 }
 
@@ -1738,7 +1738,7 @@ label[for]{
 	cursor: pointer;
 }
 .section-main h2{
-	font-size: 1.3em;
+	font-family: Arial, sans-serif; font-size: 1.3em;
 }
 
 .search-group {
@@ -1748,7 +1748,7 @@ label[for]{
 }
 .search-group-btn {
 	position: relative;
-	font-size: 0;
+	font-family: Arial, sans-serif; font-size: 0;
 	white-space: nowrap;
 }
 .search-group .form-control:first-child{

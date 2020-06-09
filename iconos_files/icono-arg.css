@@ -35,29 +35,29 @@
 	line-height: 1;
 }
 [class*="icono-arg"]:before {
-	font-size: 1.5em;
+	font-family: Arial, sans-serif; font-size: 1.5em;
 }
 
 .icono-lg {
-    font-size: 1.33333333em;
+    font-family: Arial, sans-serif; font-size: 1.33333333em;
     line-height: .75em;
     vertical-align: -15%
 }
 
 .icono-2x {
-    font-size: 2em
+    font-family: Arial, sans-serif; font-size: 2em
 }
 
 .icono-3x {
-    font-size: 3em
+    font-family: Arial, sans-serif; font-size: 3em
 }
 
 .icono-4x {
-    font-size: 4em
+    font-family: Arial, sans-serif; font-size: 4em
 }
 
 .icono-5x {
-    font-size: 5em
+    font-family: Arial, sans-serif; font-size: 5em
 }
 
 .icono-fw {
