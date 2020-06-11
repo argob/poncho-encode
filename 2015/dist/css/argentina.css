@@ -48,7 +48,7 @@ main .gm-style a:after {
       box-sizing: border-box; }
 
 .form-item input {
-  font-family: Arial, sans-serif; font-size: 16px;
+  font-size: 16px;
   line-height: 1;
   padding: 15px; }
   .form-item input[type=hidden] + input {
@@ -76,7 +76,7 @@ fieldset.panel.collapsible {
     margin: 0; }
     fieldset.panel.collapsible legend.panel-heading a {
       display: inline-block;
-      font-family: Arial, sans-serif; font-size: 16px;
+      font-size: 16px;
       font-weight: 500;
       margin-bottom: 10px;
       padding: 16px 25px;

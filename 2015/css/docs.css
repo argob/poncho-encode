@@ -78,7 +78,7 @@ pre[class*="language-"] {
 
 #docs #navbar-docs ul &gt; li {margin-top: 2px;}
 
-#docs #navbar-docs ul &gt; li &gt; a {border-radius: 4px; font-family: Arial, sans-serif; font-size: 16px;}
+#docs #navbar-docs ul &gt; li &gt; a {border-radius: 4px; font-size: 16px;}
 #navbar-docs.affix {top: 55px;}
 
 #docs .page-sidebar .nav-pills li&gt;a {padding: 10px 15px;}
@@ -99,7 +99,7 @@ pre[class*="language-"] {
         }
 
         .help-block {
-          font-family: Arial, sans-serif; font-size: 85%;
+          font-size: 85%;
         }
 
         input:focus, 
