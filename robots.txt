@@ -1,1 +1,1 @@
-Sitemap: /poncho/sitemap.xml
+Sitemap: /poncho-encode/sitemap.xml

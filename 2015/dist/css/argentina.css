@@ -4,7 +4,7 @@
  * Copyright 2016
  * Subsecretaría de Gobierno Digital
  * Presidencia de la Nación Argentina
- * Licenciado bajo MIT (https://github.com/argob/poncho/LICENSE)
+ * Licenciado bajo MIT (https://github.com/argob/poncho-encode/LICENSE)
  */
 /* Resources */
 main a[href^="http://"][target^="_blank"]:after, main a[href^="http://"][target^="_blank"]:after, main a[href^="https://"][target^="_blank"]:after, main a[href^="https://"][target^="_blank"]:after, main footer[href^="http://"][target^="_blank"]:after, main footer[href^="http://"][target^="_blank"]:after, main footer[href^="https://"][target^="_blank"]:after, main footer[href^="https://"][target^="_blank"]:after {
