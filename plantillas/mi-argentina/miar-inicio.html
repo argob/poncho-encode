@@ -681,10 +681,8 @@
 
 
 <script>
-  $(document).ready(function() {
-  $('#btn-mobile').click(function() {
-    $(this).siblings(".sidebar").toggle();
-  });
+$( "#btn-mobile" ).click(function() {     
+   $('.sidebar').toggle("slide", { direction: "right" }, 1000);
 });
 </script>
 
