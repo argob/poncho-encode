@@ -1,0 +1,10 @@
+
+
+SACAR TRAMITES
+PONER PANEL DE TELEFONOS (antes que turnos)
+Sacar teléfono de sidebar entonces
+Sidebar lateral en mobile tipo app
+Cambiar casita por menu hamburger
+Btn de lateral que sea un link en vez de btn, o sacar iconitos
+Link de preguntas frecuentes después de términos y condiciones
+https://app.moqups.com/EjfSGhaXV9/view/page/a9ba1ed70
