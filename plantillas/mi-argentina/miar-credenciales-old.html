@@ -19,7 +19,7 @@
   <meta name="msapplication-navbutton-color" content="#0072b8">
   <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
 
-  <meta property="og:url" content="http://localhost:4000/proyectos/mi-argentina/v4/templates/credencial-v2/credencial.html" />
+  <meta property="og:url" content="http://localhost:4000/proyectos/mi-argentina/v4/templates/v2/credencial-v2/credencial.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Banco de Pruebas" />
   <meta property="og:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
@@ -300,7 +300,17 @@
     <main role="main">
     	<div id="menuMobile">
       		<link rel="stylesheet" href="../../../../css/miargentina.css">
-
+<style>
+	.panel-acordion .panel-default{
+		-webkit-transition: height 1s ease;
+		-moz-transition: height 1s ease;
+		-o-transition: height 1s ease;
+		transition: height 1s ease;
+	}
+	.panel-slim{
+		height: fit-content;
+	}
+</style>
 <section class="p-y-0">
 	<div class="container-fluid">
     	<div class="row dashboard">
@@ -488,7 +498,7 @@
 				</div>
  		 		<div class="row main">
  		 			<div class="col-md-8">
- 		 				<div class="row panels-row panels-row-miargentina panels-row-miargentina-credenciales">
+ 		 				<div class="row panels-row panels-row-miargentina panels-row-miargentina-credenciales panel-acordion">
  		 					<div class="col-lg-6 col-xs-12">
  		 						<div class="panel panel-default panel-border-primary panel-nolink">
  		 							<div class="panel-heading">
@@ -496,7 +506,7 @@
 										<div class="panel-heading-title">
 											<div class="media">
 												<div class="media-left hidden-xs">
-													<img src="celestes_licencia_conducir.svg" alt="Licencia de conducir" title="Licencia de conducir">
+													<img src="assets/celestes_licencia_conducir.svg" alt="Licencia de conducir" title="Licencia de conducir">
 												</div>
 												<div class="media-body">
 													<h2>Licencia Nacional de Conducir</h2>
@@ -516,7 +526,7 @@
 											<div class="row">
 												<div class="col-xs-12">
 													<p class="help-block text-center">última actualización 11/09/2018 14.hs</p>
-													<img src="qr.png" alt="qr"  class="center-block qr m-b-2">
+													<img src="assets/qr.png" alt="qr"  class="center-block qr m-b-2">
 												</div>
 											</div>
 											<div class="row credencial-txt">
@@ -556,7 +566,7 @@
 											<div class="panel-heading-title">
 												<div class="media">
 													<div class="media-left hidden-xs">
-														<img src="celestes_licencia_conducir.svg" alt="Licencia de conducir" title="Licencia de conducir">
+														<img src="assets/celestes_licencia_conducir.svg" alt="Licencia de conducir" title="Licencia de conducir">
 													</div>
 													<div class="media-body">
 														<h2>Licencia Nacional de Conducir</h2>
@@ -653,6 +663,56 @@
 									</div>
 								</div>
 						    </div>
+						    <div class="col-lg-6 col-xs-12">
+								<div class="panel panel-default panel-border-primary panel-nolink panel-borders">
+										<div class="panel-heading" data-toggle="collapse" data-target="#collapsePanel4"
+											aria-expanded="true" aria-controls="collapsePanel4">
+											<div class="row">
+												<div class="col-xs-10 col-md-11">
+													<h2>Salud</h2>
+												</div>
+												<div class="col-xs-2 col-md-1 text-right">
+													<a class="btn-collapse"><i
+															class="fa fa-chevron-up collapseGira text-muted"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="panel-collapse collapse" role="tabpanel" id="collapsePanel4"
+											aria-expanded="true">
+											<div class="panel-body">
+												<div class="row flex-cont">
+													<div class="col-lg-6">
+														<div class="m-b-1">
+															<a href="seleccion.html" class=""><strong>Vacunarse contra la fiebre
+																	amarilla</strong></a>
+															<p>Obtener un turno para vacunarse contra la fiebre amarilla.</p>
+															<a href="seleccion.html" class="btn btn-success btn-sm">SACAR
+																TURNO</a>
+														</div>
+													</div>
+													<div class="col-lg-6">
+														<div class="m-b-1">
+															<a href="seleccion.html" class="">Vacunarse contra la fiebre
+																amarilla</a>
+															<p>Obtener un turno para vacunarse contra la fiebre amarilla.</p>
+															<a href="seleccion.html" class="btn btn-success btn-sm">SACAR
+																TURNO</a>
+														</div>
+													</div>
+													<div class="col-lg-6">
+														<div class="m-b-1">
+															<a href="seleccion.html" class="">Vacunarse contra la fiebre
+																amarilla</a>
+															<p>Obtener un turno para vacunarse contra la fiebre amarilla.</p>
+															<a href="seleccion.html" class="btn btn-success btn-sm">SACAR
+																TURNO</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+							</div>
 							
 						</div>
 					</div>
@@ -724,10 +784,10 @@
 <script src="../../../js/alert-close.js"></script>
 
 <script>
-	document.querySelectorAll('.btn-collapse').forEach(a => {
-		a.addEventListener('click', credencial)
-		
-	})
+/*
+document.querySelectorAll('.btn-collapse').forEach(a => {
+	a.addEventListener('click', credencial)
+})
 function credencial(e){
 	var panel = e.currentTarget.parentNode.parentNode.parentNode
 	if(panel.style.display == 'block'){
@@ -736,10 +796,15 @@ function credencial(e){
 	}else{
 		panel.style.display = 'block'
 	}
-
-
-	
 }
+*/
+//$('.panel-acordion').find('.panel-default:has(".in")').addClass('panel-danger');
+
+$('.panel-acordion .panel-default').on('show.bs.collapse', function (e) {
+   $(e.target).closest('.panel-default').removeClass(' panel-slim');
+}).on('hide.bs.collapse', function (e) {
+   $(e.target).closest('.panel-default').addClass(' panel-slim');
+})
 
 </script>
 
