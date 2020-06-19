@@ -50,6 +50,8 @@
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <body>
   
+<div class="sidebar-overlay"></div>
+
     <header class="container-fluid">
         <div class="row">
             <!-- logo y boton mi cuenta -->
@@ -682,7 +684,8 @@
 
 <script>
 $("#btn-mobile").click(function(){
-  $(".sidebar").toggleClass("sidebar-mobile");
+  $(".sidebar").toggleClass("sidebar-mobile"),
+  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
 });
 </script>
 
