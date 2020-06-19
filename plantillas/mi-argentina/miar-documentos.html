@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="es"class="iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="ie6 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="ie7 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="es"><!--<![endif]-->
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio - Mi Argentina</title>
+  <meta name="description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina.">
+  <meta name="author" content="Presidencia de la Nación">
+  <link rel="shortcut icon" href="/proyectos/mi-argentina/v5/img/favicon.ico">
+
+  <!-- Nav and address bar color -->
+  <meta name="theme-color" content="#0072b8">
+  <meta name="msapplication-navbutton-color" content="#0072b8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+
+  <meta property="og:url" content="http://localhost:4000/proyectos/mi-argentina/v5/base/base-general.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Banco de Pruebas" />
+  <meta property="og:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta property="og:image" content="/ejemplos/img/jumbotron.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Banco de Pruebas" />
+  <meta name="twitter:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta name="twitter:image" content="/ejemplos/img/jumbotron.jpg" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/poncho.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/miargentina.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/icono-arg.css">
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/node_modules/html5shiv/html5shiv.js"></script>
+      <script src="/node_modules/respond.js/respond.min.js"></script>
+  <![endif]-->  
+
+</head>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<body>
+  
+<div class="sidebar-overlay"></div>
+
+    <header class="container-fluid">
+        <div class="row">
+            <!-- logo y boton mi cuenta -->
+                <div class="navbar navbar-top navbar-default nav-header-dashboard" role="navigation"  aria-labelledby="Mi cuenta">
+                              <div>
+                                <div class="nav navbar-nav navbar-header m-y-1 m-l-2">
+                                  <a href="#">
+                                    <i class="visible-xs fa fa-reorder icon-init sm-r-1" id="btn-mobile"></i>
+                                    <img alt="Mi Argentina" title="Mi Argentina" src="assets/miargentina.svg" class="brand-icon" height="40">
+                                    <h1 class="sr-only">Mi Argentina</h1>
+                                  </a>
+                                </div>
+                              </div>
+                              <nav class="dropdown nav navbar-nav navbar-right navbar-right-mobile navbar-right-header m-y-1">
+                                <button class="text-primary btn btn-link dropdown-toggle m-t-0 m-r-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                  <span>Mi cuenta </span>
+                                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-micuenta"  aria-labelledby="dropdownMenuButton" role="dialog" aria-modal=true>
+                                  <ul>
+                                    <li>
+                                      <p>
+                                        <strong>María Paula Garibaldi</strong>
+                                      </p>
+                                    </li>
+                                    <li>
+                                      <p>34303273<p>
+                                    </li>
+                                    <li>
+                                      <small>Validado nivel 3 
+                                        <i class="fa fa-check-square-o text-success" aria-hidden="true"></i>
+                                      </small>
+                                    </li>
+                                    <hr>
+                                    <li role="menu-item">
+                                      <a href="id/datos-personales.html">Mi perfil</a>
+                                    </li>
+                                    <li role="menu-item">
+                                      <a href="https://id.argentina.gob.ar/mis-dispositivos">Mis dispositivos</a>
+                                    </li>
+                                    <li role="menu-item">
+                                      <a href="https://id.argentina.gob.ar/vincular-redes-sociales">Redes sociales</a>
+                                    </li>
+                                    <li data-id="configurar-notificaciones">
+                                      <a href="https://mi.argentina.gob.ar/configurar-notificaciones">Configurar notificaciones</a>
+                                    </li>
+                                    <li role="menu-item">
+                                      <a href="https://id.argentina.gob.ar/password/change">Configurar mi cuenta</a>
+                                    </li>
+                                    <li role="menu-item">
+                                      <a href="https://www.argentina.gob.ar/mi/terminos-y-condiciones">Términos y condiciones</a>
+                                    </li>
+                                    <hr class="m-y-1">
+                                    <li class="menu" role="menu-item">
+                                      <a href="https://mi.argentina.gob.ar/salir" class="logout">Cerrar la sesión</a>
+                                    </li>
+                                  </ul>
+                                  <button class="btn btn-link no-border-shadow dropdown-toggle sr-only" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only">Cerrar menú mi cuenta</span>
+                                    <i class="fa fa-chevron-up text-muted text-center visible-xs" aria-hidden="true"></i>
+                                  </button>
+                                </div>
+                              </nav>        
+                </div>
+            
+        </div>
+    </header>
+
+
+    <main role="main">
+        <div class="row dashboard">
+            <!-- <div class="sidebar hidden-xs p-l-0"> -->
+              <div class="sidebar p-l-0">
+
+
+                <nav class="page-sidebar m-b-2 dashboard-sidebar">
+                    <ul class="nav nav-pills nav-stacked nav-dashboard m-t-2 p-r-0">
+                        <li class="p-r-0 active">
+                            <a href="#" onclick='location.reload(true); return false;'>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-casa-negativo" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Inicio</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-credenciales-negativo" aria-label="Mis credenciales" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mis documentos</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-turno-negativo" aria-label="Mis turnos" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mis turnos</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-tramite-negativo" aria-label="Mis trámites" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mis trámites</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-cobros-negativo" aria-label="Mis cobros" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mis cobros</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-automotor-negativo" aria-label="Mis vehículos" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mis vehículos</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </li>
+
+
+
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-cruz-medicina-negativo" aria-label="Mi salud" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Mi salud</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </li>
+<!-- 
+                        <li class="p-r-0">
+                            <a href="#">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="icono-arg-telefono-llamada-negativo" aria-label="Teléfonos" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="m-b-0">Teléfonos</p>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </li> -->
+
+
+
+
+                    </ul>
+                </nav>
+
+
+
+            </div>
+
+
+            <div class="col-md-12 m-x-2 m-y-2">
+
+            
+                    <div class="row">
+                        <div class="col-xs-8">
+                                <!-- <ol class="breadcrumb">
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li class="active">3</li>
+                                </ol> -->
+                                <h1>Mis documentos</h1>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                      <div class="row panels-row">
+
+
+
+                          <div class="col-md-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <p class="h4">Validá tu identidad para ver más documentos</p>
+                                </div>
+                                <div class="panel-body">
+                                  <p>Descargá la aplicación y validá tu identidad para poder ver documentos de salud, discapacidad y tus papeles del auto.</p>
+                                  <a href="#" class="btn btn-primary btn-block">Descargar aplicación</a>
+                                </div>
+                              </div>
+                          </div>
+
+
+
+
+
+                          <div class="col-md-4">
+                            <div class="panel panel-default panel-border-primary panel-nolink">
+                                <div class="panel-heading">
+                                    <a href="#collapsePanel1" class="collapsed btn-collapse" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="collapsePanel"> 
+                                  <div class="panel-heading-title">
+                                      <div class="media">
+                                          <div class="media-left hidden-xs">
+                                              <img src="assets/celestes_licencia_conducir.svg" alt="Licencia de conducir" title="Licencia de conducir">
+                                          </div>
+                                          <div class="media-body">
+                                              <h2>Licencia Nacional de Conducir</h2>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="text-right">
+                                      
+                                          <i class="fa fa-chevron-up"></i>
+                                      
+                                  </div>
+                                  </a>
+                              </div>
+                              
+                              <div class="panel-collapse collapse in" role="tabpanel" id="collapsePanel1" aria-labelledby="collapsePanel" aria-expanded="true">
+                                  <div class="panel-body">
+                                      <div class="row">
+                                          <div class="col-xs-12">
+                                              <p class="help-block text-center">última actualización 11/09/2018 14.hs</p>
+                                              <img src="assets/qr.png" alt="qr" class="center-block qr m-b-2">
+                                          </div>
+                                      </div>
+                                      <div class="row credencial-txt">
+                                          <div class="col-xs-6">
+                                              <small>Estado</small>
+                                              <p class="text-capitalize">
+                                                  <i class="fa fa-circle text-warning"></i>
+                                                  <b>Por vencer</b>
+                                              </p>
+                                              <p class="text-capitalize">
+                                                  <i class="fa fa-check-circle text-success"></i>
+                                                  <b>Válido para conducir</b>
+                                              </p>
+                                              <img src="https://mi.argentina.gob.ar/img/logos/anses.svg" alt="logo-ejemplo" class="logo">
+                                          </div>
+                                          <div class="col-xs-6">
+                                              <small>Fecha de vencimiento</small>
+                                              <p>27/11/2019</p>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div class="panel-footer">
+                                      <div class="btn-footer-container center-block">
+                                          <a href="#" class="btn btn-link text-center btn-block m-y-0">Ver licencia</a>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+
+                          <div class="col-md-4">
+                              (Credencial 3)
+                          </div>
+
+
+
+
+
+
+
+                      </div>
+        
+
+            </div>
+
+
+
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid main-footer p-x-2">
+        <div class="row footer center-block">
+            <div class="col-sm-6 m-y-1">
+              <img class="image-responsive" height="30" alt="Argentina Unida" src="assets/logo_argentina_unida.svg">
+            </div>
+            <div class="col-sm-6 text-right m-t-1 m-b-2">
+              <a href="#">Preguntas frecuentes</a>
+              <a href="#">Términos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+      window.onload = function(){
+        document.querySelector('.inicio').addEventListener("click", function (){
+    
+          document.getElementById('menuMobile').classList.toggle('forMenuMobile')
+          document.querySelector('.dashboard-sidebar').classList.toggle('hidden')
+        })
+      }
+          
+        </script> -->
+
+
+
+<script>
+$("#btn-mobile").click(function(){
+  $(".sidebar").toggleClass("sidebar-mobile"),
+  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
+});
+$(".sidebar-overlay").click(function(){
+  $(".sidebar").toggleClass("sidebar-mobile"),
+  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
+});
+</script>
+
+
+
+
+
+</body>
+</html>
