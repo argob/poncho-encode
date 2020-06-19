@@ -130,7 +130,7 @@
                 <nav class="page-sidebar m-b-2 dashboard-sidebar">
                     <ul class="nav nav-pills nav-stacked nav-dashboard m-t-2 p-r-0">
                         <li class="p-r-0 active">
-                            <a href="#">
+                            <a href="#" onclick='location.reload(true); return false;'>
                                 <div class="media">
                                     <div class="media-left">
                                         <i class="icono-arg-casa-negativo" aria-hidden="true"></i>
@@ -684,10 +684,6 @@
 
 <script>
 $("#btn-mobile").click(function(){
-  $(".sidebar").toggleClass("sidebar-mobile"),
-  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
-});
-$(".sidebar-mobile .nav-dashboard a").click(function(){
   $(".sidebar").toggleClass("sidebar-mobile"),
   $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
 });
