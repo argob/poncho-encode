@@ -1,6 +1,28 @@
 
 
+- ID hacer pantallas login crear cuenta contraseña?
+- Cambios de footer
+- Cambios header?
+
+- MENU desplegable sacar configurar notificaciones + redes sociales
+
+
+- Ver resoluciones ipad
+- falta hamburger
+- se rompe feriados
+- pasar a 2 columnas sidebar y mis turnos etc creo que también
+- cerrar sesión
+- error 404
+- loading
+- panel documentos completo
+- panel credencial carrusel mm
+- panel con error de servicio
 
 
 
+
+
+
+
+Credenciales todas (no hacer todas igual):
 https://app.moqups.com/EjfSGhaXV9/view/page/a9ba1ed70
