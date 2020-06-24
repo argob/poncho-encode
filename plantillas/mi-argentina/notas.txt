@@ -1,5 +1,16 @@
 
 
+
+
+
+- SACAR BREADCRUMBS por ahora ya fue
+
+
+
+
+
+
+
 - ID hacer pantallas login crear cuenta contraseña?
 - Cambios de footer
 - Cambios header?
