@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="es"class="iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="ie6 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="ie7 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="es"><!--<![endif]-->
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cerraste tu sesión - Mi Argentina</title>
+  <meta name="description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina.">
+  <meta name="author" content="Presidencia de la Nación">
+  <link rel="shortcut icon" href="/proyectos/mi-argentina/v5/img/favicon.ico">
+
+  <!-- Nav and address bar color -->
+  <meta name="theme-color" content="#0072b8">
+  <meta name="msapplication-navbutton-color" content="#0072b8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+
+  <meta property="og:url" content="http://localhost:4000/proyectos/mi-argentina/v5/base/base-general.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Banco de Pruebas" />
+  <meta property="og:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta property="og:image" content="/ejemplos/img/jumbotron.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Banco de Pruebas" />
+  <meta name="twitter:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta name="twitter:image" content="/ejemplos/img/jumbotron.jpg" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/poncho.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/miargentina.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/icono-arg.css">
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/node_modules/html5shiv/html5shiv.js"></script>
+      <script src="/node_modules/respond.js/respond.min.js"></script>
+  <![endif]-->  
+
+</head>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<body>
+  
+<div class="sidebar-overlay"></div>
+
+    <header class="container-fluid header-login">
+        <div class="row">
+            <!-- logo y boton mi cuenta -->
+                <div class="navbar navbar-top navbar-default nav-header-dashboard" role="navigation"  aria-labelledby="Mi cuenta">
+                              <div>
+                                <div class="nav navbar-nav navbar-header">
+                                  <a href="#">
+                                    <!-- <i class="visible-xs fa fa-reorder icon-init sm-r-1" id="btn-mobile"></i> -->
+                                    <img alt="Mi Argentina" title="Mi Argentina" src="assets/miargentina.svg" class="brand-icon" height="50">
+                                    <h1 class="sr-only">Mi Argentina</h1>
+                                  </a>
+                                </div>
+                              </div>
+    
+                </div>
+            
+        </div>
+    </header>
+
+<!-- AGREGAR CONTAINER FLUID -->
+    <main role="main" class="container-fluid">
+        <div class="row dashboard">
+
+
+
+            
+
+
+
+
+
+
+            <!-- CAMBIAR CLASES COL -->
+            <div class="col-lg-offset-3 col-lg-6 col-sm-offset-2 col-sm-8 col-xs-12 m-y-2 ">
+                <!-- AGREGAR PANEL DEFAULT Y PANEL BODY -->
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <p><i class="fa fa-sign-out fa-4x text-primary"></i></p>
+                        <h2>Cerraste la sesión de tu cuenta de Mi Argentina</h2>
+                        <p>Volvé a ingresar para ver tus trámites pendientes y notificaciones o buscá más trámites en el sitio.</p>
+                        <p class="m-t-2">
+                          <a href="#" class="btn btn-success btn-block login-button">Ingresar de nuevo</a>
+                        </p>
+
+
+            </div>
+            </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid main-footer p-x-2">
+        <div class="row footer center-block">
+            <div class="col-sm-6 m-y-1">
+              <img class="image-responsive" height="30" alt="Argentina Unida" src="assets/logo_argentina_unida.svg">
+            </div>
+            <div class="col-sm-6 text-right m-t-1 m-b-2">
+              <a href="#">Preguntas frecuentes</a>
+              <a href="#">Términos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+      window.onload = function(){
+        document.querySelector('.inicio').addEventListener("click", function (){
+    
+          document.getElementById('menuMobile').classList.toggle('forMenuMobile')
+          document.querySelector('.dashboard-sidebar').classList.toggle('hidden')
+        })
+      }
+          
+        </script> -->
+
+
+
+<!-- SACAR javascript de botonera hamburger -->
+
+<!-- <script>
+$("#btn-mobile").click(function(){
+  $(".sidebar").toggleClass("sidebar-mobile"),
+  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
+});
+$(".sidebar-overlay").click(function(){
+  $(".sidebar").toggleClass("sidebar-mobile"),
+  $(".sidebar-overlay").toggleClass("sidebar-overlay-on");
+});
+</script> -->
+
+
+
+
+
+</body>
+</html>

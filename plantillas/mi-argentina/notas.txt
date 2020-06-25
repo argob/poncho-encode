@@ -3,24 +3,20 @@
 
 
 
-- SACAR BREADCRUMBS por ahora ya fue
 
 
 
 
 
-
-
-- ID hacer pantallas login crear cuenta contraseña?
-- Cambios de footer
-- Cambios header?
-
-- MENU desplegable sacar configurar notificaciones + redes sociales
-
-
+- crear cuenta
+- success
+- recuperar contraseña
 
 - cerrar sesión
 - error 404
+
+
+
 - loading
 - panel documentos completo
 - panel credencial carrusel mm
