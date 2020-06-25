@@ -4,16 +4,16 @@
 
 
 
+REDMINE
 
 
-
-
-- crear cuenta
-- success
-- recuperar contraseña
-
-- cerrar sesión
+- success de registro
+- sesión expirada
 - error 404
+
+
+- fix panel destacado con icono argentina
+
 
 
 
@@ -27,6 +27,3 @@
 
 
 
-
-Credenciales todas (no hacer todas igual):
-https://app.moqups.com/EjfSGhaXV9/view/page/a9ba1ed70
