@@ -121,8 +121,8 @@
         </div>
     </header>
 
-
-    <main role="main">
+<!-- AGREGAR CONTAINER FLUID -->
+    <main role="main" class="container-fluid">
         <div class="row dashboard">
 
 
@@ -136,14 +136,12 @@
             <!-- <section>
 				<div class="container"> -->
                     <!-- PONER M-Y-2 Y CAMBIAR OFFSET Y COL-->
-					<div class="col-xs-offset-3 col-xs-6 m-y-2" style="padding-left: 30px;">
+					<div class="col-lg-offset-4 col-lg-4 col-sm-offset-2 col-sm-8 col-xs-12 m-y-2 ">
 
                         <div class="row">
                             <div class="col-md-12">
                                     <ol class="breadcrumb">
-                                        <li><a href="#">Inicio</a></li>
-                                        <li>Mi cuenta</li>
-                                        <li class="active">Mi perfil</li>
+                                        <li><a href="#">< Volver al inicio</a></li>
                                     </ol>
                                     <h1>Mi perfil</h1>
                             </div>
@@ -182,8 +180,7 @@
                                                                         <label for="cuil">Número de CUIL o pasaporte extranjero</label>
                                                                     </legend>
                                                                     <div class="row">
-                                                                        <!-- AGREGAR CLASE P-R-0 -->
-                                                                        <div class="col-xs-4 col-sm-3 p-r-0">
+                                                                        <div class="col-xs-4 col-sm-3">
                                                                             <input type="text" class="form-control text-muted" id="cuil-pass" name="personal-info" value="CUIL" disabled >
                                                                         </div>
                                                                         <div class="col-xs-8 col-sm-9">
@@ -494,7 +491,7 @@
                                                                         <label for="dni">Tipo y Número de Documento</label>
                                                                     </legend>
                                                                     <div class="row">
-                                                                        <div class="col-xs-4 col-sm-3 p-r-0">
+                                                                        <div class="col-xs-4 col-sm-3">
                                                                             <input type="text" class="form-control text-muted" id="kind-doc" name="personal-info" value="DNI" disabled >
                                                                         </div>
                                                                         <div class="col-xs-8 col-sm-9">

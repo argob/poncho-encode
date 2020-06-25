@@ -18,10 +18,7 @@
 - MENU desplegable sacar configurar notificaciones + redes sociales
 
 
-- Ver resoluciones ipad
-- falta hamburger
-- se rompe feriados
-- pasar a 2 columnas sidebar y mis turnos etc creo que también
+
 - cerrar sesión
 - error 404
 - loading
