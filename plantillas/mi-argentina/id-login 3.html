@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="es"class="iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="ie6 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="ie7 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="es"><!--<![endif]-->
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Perfil - Mi Argentina</title>
+  <meta name="description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina.">
+  <meta name="author" content="Presidencia de la Nación">
+  <link rel="shortcut icon" href="/proyectos/mi-argentina/v5/img/favicon.ico">
+
+  <!-- Nav and address bar color -->
+  <meta name="theme-color" content="#0072b8">
+  <meta name="msapplication-navbutton-color" content="#0072b8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+
+  <meta property="og:url" content="http://localhost:4000/proyectos/mi-argentina/v5/base/base-general.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Banco de Pruebas" />
+  <meta property="og:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta property="og:image" content="/ejemplos/img/jumbotron.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Banco de Pruebas" />
+  <meta name="twitter:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina." />
+  <meta name="twitter:image" content="/ejemplos/img/jumbotron.jpg" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/poncho.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/css/miargentina.css">
+  <link rel="stylesheet" href="../../node_modules/argob-poncho/dist/icono-arg.css">
+  
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="/node_modules/html5shiv/html5shiv.js"></script>
+      <script src="/node_modules/respond.js/respond.min.js"></script>
+  <![endif]-->  
+
+</head>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<body>
+  
+    <header>
+        <nav class="navbar navbar-top navbar-default" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                        <div class="navbar-header">
+                            <a class="navbar-brand brand-id" href="https://mi.argentina.gob.ar"
+                                aria-label="Mi Argentina - Presidencia de la Nación">
+                                <img alt="mi.argentina.gob.ar" src="/static/img/logo.svg" height="50">
+    
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <main role="main">    
+        
+    <div class="login-container body-login">
+        <section class="container-fluid container-id">
+            <div class="row">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                    <h1 class="sr-only">Ingresá o creá tu cuenta de Mi Argentina</h1>
+                    <h2 aria-hidden="true">Ingresá a tu cuenta</h2>
+                    
+    
+    
+                    <form method="post">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='GplHX0GYEd5vHaPJWcxI7xn0iWEocMXoSMtSY2NQKMRAPdepYmIK575C4ab3j6ui' />
+    
+                        
+                        
+                        <input type="hidden" name="next" value="/authorize/?client_id=613410&amp;response_type=code&amp;scope=openid+profile+email+optional&amp;redirect_uri=https://mi.argentina.gob.ar/_oauth/oidc&amp;state=eyJsb2dpblN0eWxlIjoicmVkaXJlY3QiLCJjcmVkZW50aWFsVG9rZW4iOiJaaThyN3VycHRqaE4zenNMRCIsImlzQ29yZG92YSI6ZmFsc2UsInJlZGlyZWN0VXJsIjoiaHR0cHM6Ly9taS5hcmdlbnRpbmEuZ29iLmFyLyJ9">
+                        
+    
+                        
+    
+    
+                        <label for="cuil">CUIL o pasaporte extranjero</label>
+                        <div class="row">
+                            <div class="col-xs-12 form-group item-form ">
+                            <input type="text" class="form-control" id="cuil" aria-required="true" name="id_number"
+                                value="">
+                            
+                            </div>
+                        </div>
+    
+                        <label for="password_confirmacion">Contraseña</label>
+                        <div class="row">
+                            <div class="col-xs-12 form-group item-form ">
+                            <input id="password_confirmacion" type="password" class="form-control" name="password">
+                            <!-- <a href="#" class="fa fa-fw fa-eye-slash input-icon" id="eye-password" onclick="viewpassword()"
+                                alt="Mostrar contraseña"><span class="sr-only">Mostrar contraseña</span></a> -->
+                            
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                            
+                            <p><a href="/password/reset/">¿Olvidaste tu contraseña?</a></p>
+                            </div>
+                        </div>
+    
+                        
+    
+                        <div class="row m-t-2">
+                            <div class="col-md-8">
+                            <button type="submit" class="btn btn-success" id="login">Ingresar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="container-fluid p-t-2 p-b-3">
+            <div class="row">
+                <div class="container">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                        <h2>¿No tenés cuenta?</h2>
+                        <a href="/registro/?next=/authorize/%3Fclient_id%3D613410%26response_type%3Dcode%26scope%3Dopenid%2Bprofile%2Bemail%2Boptional%26redirect_uri%3Dhttps%3A//mi.argentina.gob.ar/_oauth/oidc%26state%3DeyJsb2dpblN0eWxlIjoicmVkaXJlY3QiLCJjcmVkZW50aWFsVG9rZW4iOiJaaThyN3VycHRqaE4zenNMRCIsImlzQ29yZG92YSI6ZmFsc2UsInJlZGlyZWN0VXJsIjoiaHR0cHM6Ly9taS5hcmdlbnRpbmEuZ29iLmFyLyJ9" class="btn btn-primary" role="button" tabindex="0">Creá tu cuenta
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    </main>
+    
+    
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-xs-12" style="">
+                            <a href="https://www.argentina.gob.ar/mi/terminos-y-condiciones" target="_blank"><span
+                                class="sr-only">Abrir vínculo en nueva pestaña</span>Términos y condiciones</a>
+                        </div>
+                    </div>
+                    <div class="row m-t-2">
+                        <div class="col-sm-6">
+                            <img class="image-responsive" alt="Presidencia de la Nación" src="/static/img/logo-presidencia.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+</html>
