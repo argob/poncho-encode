@@ -8,7 +8,9 @@ ARGENTINA
 - terminar plantillas
 - minificar poncho
 - hay argentina.css?
-
+- Para Panel destacado con ícono y fondo de color
+---- SACAR clase "hidden-xs" de panel-heading
+---- SACAR <span class="visible-xs-inline"><i class="fa fa-file text-secondary"></i>&nbsp; </span>
 
 
 MI ARGENTINA
@@ -22,3 +24,24 @@ MI ARGENTINA
 - paneles que falten? error servicio? vencida?
 
 
+
+
+Buenas, les paso algo en lo que estuve trabajando con ayuda de Nacho y Marina.
+
+Se armó por 2 razones, el pedido de cambiar la tipografía de argentina.gob.ar y el pedido de actualizar la web de Mi Argentina.
+
+Como los dos sitios usan de base Poncho, lo que hice fue modificar primero eso y luego seguir con los estilos específicos de Mi Argentina. Esto resultó en que sin tocar las plantillas de argentina.gob.ar ya quedaron cambiados estos elementos:
+- Tipografía (la del nuevo manual de marca)
+- Forma de botones y formularios (más redondeados)
+- Forma de tarjetas (más redondeadas y sin sombra)
+
+Sólo faltaría cambiar algunos colores lo cual quiero ver en detalle hoy en qué componentes aplica para que no se generen problemas de contraste (o sea de accesibilidad).
+
+Pueden ver cómo quedaron las plantillas acá:
+https://argob.github.io/poncho-encode/plantillas/paginas-de-argentina/
+
+Todos estos cambios son de estilos. Se reemplaza un archivo .css, se prueban varias páginas/casos en un ambiente de QA, y se hace deploy de Poncho (ni si quiera sería un deploy de Drupal).
+
+Si les parece lo que pienso es que esto serviría para estar alineados con el nuevo manual de marca, y es algo para cambiar y no hacer ningún anuncio al respecto porque no sería un rediseño del sitio si no una actualización de la identidad visual (en línea con haber cambiado el logo).
+
+Y luego de esto seguir con cambios de diseño orientados a cambiar la estructura, navegación y contenidos, y luego de eso sí hacer un lanzamiento apropiado.
