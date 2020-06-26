@@ -2,28 +2,23 @@
 
 
 
+ARGENTINA
+
+- fix panel destacado con icono argentina
+- terminar plantillas
+- minificar poncho
+- hay argentina.css?
 
 
-REDMINE
 
+MI ARGENTINA
 
+- sesión cerrada (cambiar ilustración ver con nacho)
 - success de registro
 - sesión expirada
 - error 404
-
-
-- fix panel destacado con icono argentina
-
-
-
-
-- loading
-- panel documentos completo
-- panel credencial carrusel mm
-- panel con error de servicio
-
-
-
-
+- agregar colores text y bg
+- loading (cambio de iso avisar nomás)
+- paneles que falten? error servicio? vencida?
 
 
