@@ -42,7 +42,7 @@
       <script src="http://argob.github.io/poncho-encode/js/html5shiv.js"></script>
       <script src="http://argob.github.io/poncho-encode/js/respond.min.js"></script>
   <![endif]-->
-  <style>
+  <!-- <style>
   @media print { 
       /* All your print styles go here */
       main .jumbotron {
@@ -112,7 +112,7 @@
       
 
    }
-  </style>
+  </style> -->
     
 </head>
 
@@ -153,24 +153,7 @@
 </header>
 
 
-<script type="text/javascript">
-  var busqueda = document.getElementById('buscar');
-  var buscar = document.getElementById('buscar-btn');
-  buscar.onclick = function () {
-    var buscado = busqueda.value;
-    location.href = "http://www.argentina.gob.ar/buscar/" + buscado;
-  };
-  
-  //PONCHO LABS
-  var url_string = window.location.href;
-  var url = new URL(url_string);
-  var lab = url.searchParams.get("lab");
-  
-  
-  if(lab == ""){
-    $("head").append('<link href="/proyectos/poncho-encode/css/poncho_lab.css" rel="stylesheet">');
-  }
-</script>
+
 
     <main role="main">
       <section class="jumbotron" style="background-image:url('https://www.argentina.gob.ar/sites/default/files/styles/jumbotron/public/backimage_buscador/dsc_6377_paisaje_jujuy.jpg?itok=08iW_ZPN');">
@@ -184,7 +167,7 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <form role="search">
-            <div class="input-group input-group-lg">
+            <div class="input-group">
               <input class="form-control" type="text" aria-label="Buscar trámites, servicios o áreas" placeholder="Buscar trámites, servicios o áreas ...">
               <span class="input-group-btn">
                 <button class="btn btn-primary" aria-label="Buscar" type="button"><span class="glyphicon glyphicon-search"></span></button>
@@ -201,69 +184,12 @@
 <section>
   <div class="container">
 
-    <div class="row apps">
-      <div class="col-md-8 col-md-offset-2">
-        <a id="appAlert" class="alert alert-info visible-xs" href="/app">
-          <div class="media">
-            <div class="media-left media-middle">
-              <i class="fa fa-mobile fa-fw fa-3x"></i>
-            </div>
-            <div class="media-body media-middle">
-              <h5 class="m-y-0">Descargá la aplicación.</h5>
-              <p id="appAlertText" class="m-y-0">Disponible para Android y iOS.</p>
-            </div>
-          </div>
-        </a>  
-      </div>
-    </div> 
-
-    <script>
-      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-      if (/android/i.test(userAgent)) {
-        document.getElementById('appAlert').href = "https://play.google.com/store/apps/details?id=ar.gob.argentinagobar";
-        document.getElementById('appAlertText').innerHTML = "Disponible para Android.";
-      }
-
-      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        document.getElementById('appAlert').href = "https://itunes.apple.com/us/app/argentina.gob.ar/id1107620792?l=es&mt=8";
-        document.getElementById('appAlertText').innerHTML = "Disponible para iOS.";
-      }
-    </script>
+ 
 
 
 
 <div>
-   <div class="panel-pane pane-texto">
-      <div class="pane-content">
-         <div class="">
-            <div class="row apps">
-               <div class="col-md-8 col-md-offset-2">
-                  <a id="appAlert" class="alert alert-info visible-xs" href="/app">
-                     <div class="media">
-                        <div class="media-left media-middle"> <i class="fa fa-mobile fa-fw fa-3x"></i></div>
-                        <div class="media-body media-middle">
-                           <h5 class="m-y-0">Descargá la aplicación.</h5>
-                           <p id="appAlertText" class="m-y-0">Disponible para Android y iOS.</p>
-                        </div>
-                     </div>
-                  </a>
-               </div>
-            </div>
-            <script>
-               var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-               if (/android/i.test(userAgent)) {
-               document.getElementById('appAlert').href = "https://play.google.com/store/apps/details?id=ar.gob.argentinagobar";
-               document.getElementById('appAlertText').innerHTML = "Disponible para Android.";
-               }
-               if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-               document.getElementById('appAlert').href = "https://itunes.apple.com/us/app/argentina.gob.ar/id1107620792?l=es&mt=8";
-               document.getElementById('appAlertText').innerHTML = "Disponible para iOS.";
-               }
-            </script>
-         </div>
-      </div>
-   </div>
+
    <div class="panel-separator"></div>
    <div class="panel-pane pane-atajos">
       <div class="pane-content">

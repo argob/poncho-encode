@@ -42,7 +42,7 @@
       <script src="/node_modules/html5shiv/html5shiv.js"></script>
       <script src="/node_modules/respond.js/respond.min.js"></script>
   <![endif]--> 
-  <style>
+  <!-- <style>
   @media print {
 
     main {
@@ -89,7 +89,7 @@
       }
     
   }
-  </style>
+  </style> -->
     
 </head>
 
@@ -131,24 +131,7 @@
 </header>
 
 
-<script type="text/javascript">
-  var busqueda = document.getElementById('buscar');
-  var buscar = document.getElementById('buscar-btn');
-  buscar.onclick = function () {
-    var buscado = busqueda.value;
-    location.href = "http://www.argentina.gob.ar/buscar/" + buscado;
-  };
-  
-  //PONCHO LABS
-  var url_string = window.location.href;
-  var url = new URL(url_string);
-  var lab = url.searchParams.get("lab");
-  
-  
-  if(lab == ""){
-    $("head").append('<link href="/proyectos/poncho-encode/css/poncho_lab.css" rel="stylesheet">');
-  }
-</script>
+
 
     <main role="main">
       <!-- Articulo Principal -->

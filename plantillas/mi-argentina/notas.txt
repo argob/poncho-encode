@@ -9,8 +9,7 @@ ARGENTINA
 - minificar poncho
 - hay argentina.css?
 - Para Panel destacado con ícono y fondo de color
----- SACAR clase "hidden-xs" de panel-heading
----- SACAR <span class="visible-xs-inline"><i class="fa fa-file text-secondary"></i>&nbsp; </span>
+b
 
 
 MI ARGENTINA
@@ -23,6 +22,17 @@ MI ARGENTINA
 - loading (cambio de iso avisar nomás)
 - paneles que falten? error servicio? vencida?
 
+
+
+
+
+
+Buenas, comparto las plantillas de argentina.gob.ar actuales con cambios de CSS para alinearlo al nuevo manual de marca.
+https://argob.github.io/poncho-encode/plantillas/paginas-de-argentina/
+
+Es un cambio chico que afecta a tipografías, botones, paneles contenedores y achica un poco la altura de los jumbotrones. Si les parece bien podemos implementar esto la semana que viene y mientras seguir con las propuestas de diseño más profundas.
+
+Saludos!
 
 
 

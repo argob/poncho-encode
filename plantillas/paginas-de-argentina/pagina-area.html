@@ -262,24 +262,7 @@
 
 
 
-<script type="text/javascript">
-  var busqueda = document.getElementById('buscar');
-  var buscar = document.getElementById('buscar-btn');
-  buscar.onclick = function () {
-    var buscado = busqueda.value;
-    location.href = "http://www.argentina.gob.ar/buscar/" + buscado;
-  };
-  
-  //PONCHO LABS
-  var url_string = window.location.href;
-  var url = new URL(url_string);
-  var lab = url.searchParams.get("lab");
-  
-  
-  if(lab == ""){
-    $("head").append('<link href="/proyectos/poncho-encode/css/poncho_lab.css" rel="stylesheet">');
-  }
-</script>
+
 
     <main role="main">
       <section class="jumbotron" style="background-image: url('img/modernizacion.jpg');">
