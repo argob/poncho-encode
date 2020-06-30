@@ -449,7 +449,7 @@
           <div class="row justify-content-center">
             <div class="col-8">
      
-                  <div class="pull-right invisible">
+                  <div class="pull-right d-none">
                   <fieldset>
                     <div class="radio">
                     <label for="se" class="rc-label">
@@ -501,7 +501,7 @@
                aria-label="Ingresá tu CUIL. Si no lo sabés consultá en este enlace de ANSES" target="_blank">Consultá tu
                CUIL</a></p>
            <input type="number" class="form-control" id="cuil" required aria-required="true" aria-invalid="false" title="Ingresa tu CUIL">
-           <p class="help-block error hidden" role="alert">Ingresá tu CUIL <br>El CUIL tiene un formato no
+           <p class="help-block error d-none" role="alert">Ingresá tu CUIL <br>El CUIL tiene un formato no
              válido</p>
          </div>
        </div>
@@ -511,7 +511,7 @@
          <div class="col-md-8 form-group item-form">
            <label for="nombre">Nombres</label>
            <input type="text" name="name" class="form-control" id="nombre" required aria-required="true">
-           <p class="help-block error hidden" role="alert">Ingresá tu nombre</p>
+           <p class="help-block error d-none" role="alert">Ingresá tu nombre</p>
          </div>
        </div>
      
@@ -519,7 +519,7 @@
         <div class="col-md-8 form-group item-form">
          <label for="apellido">Apellidos</label>
          <input type="text" name="lastname" class="form-control" id="apellido" required aria-required="true">
-         <p class="help-block error hidden">Ingresá tu apellido</p>
+         <p class="help-block error d-none">Ingresá tu apellido</p>
        </div>
      </div>
      
@@ -528,7 +528,7 @@
          <label for="birthday">Fecha de nacimiento</label>
          <p class="help-block">Sin guiones ni barras</p>
          <input type="date" class="form-control" id="birthday" required aria-required="true">
-         <p class="help-block error hidden">Ingresá una fecha válida</p>
+         <p class="help-block error d-none">Ingresá una fecha válida</p>
        </div>
      </div>
      
@@ -549,7 +549,7 @@
            <input type="radio" name="sexo" id="m" value="M" required aria-required="true">
            Masculino
          </label>
-         <p class="help-block error hidden p-y-1">Ingresá tu sexo</p>
+         <p class="help-block error d-none p-y-1">Ingresá tu sexo</p>
      </div>
      
      </fieldset>
@@ -571,8 +571,8 @@
            <label for="password">Contraseña</label>
            <p class="help-block" id="help-password">Usá al menos 8 caracteres</p>
            <input id="password" name="password" type="password" class="form-control" maxlength="15" aria-describedby="help-password">
-           <p class="help-block error hidden">Usá al menos 8 caracteres</p>
-           <p class="help-block error hidden">La contraseña debe tener al menos 8 caracteres</p>
+           <p class="help-block error d-none">Usá al menos 8 caracteres</p>
+           <p class="help-block error d-none">La contraseña debe tener al menos 8 caracteres</p>
          </div>
        </div>
      </div>
@@ -590,7 +590,7 @@
          <option value="DNI" selected="">DNI</option>
          <option value="Pasaporte extranjero">Pasaporte extranjero</option>
        </select>
-       <p class="help-block error hidden">Elegí un tipo de documento</p>
+       <p class="help-block error d-none">Elegí un tipo de documento</p>
      </div>
      </div>
      
@@ -599,11 +599,11 @@
         <label for="numDoc"   id="mostrar-tipo">Número de documento</label>
         <input type="number" min="1" class="form-control" id="numDoc" required aria-required="true">
         <p class="help-block">Sin guiones ni barras</p>
-        <p class="help-block error hidden">Ingresá tu número de documento</p>
+        <p class="help-block error d-none">Ingresá tu número de documento</p>
       </div>
      </div>
      </div>
-     <div class="row hidden">
+     <div class="row d-none">
      
        <div class="col-md-4">
         <div class="form-group item-form">
@@ -614,7 +614,7 @@
           <option value="Libreta Cívica">Libreta Cívica</option>
           <option value="Pasaporte extranjero">Pasaporte extranjero</option>
         </select>
-        <p class="help-block error hidden">Elegí un tipo de documento</p>
+        <p class="help-block error d-none">Elegí un tipo de documento</p>
       </div>
       </div>
       
@@ -622,18 +622,18 @@
         <div class="form-group item-form">
          <label for="numDoc">Número de documento</label>
          <input type="number" min="1" class="form-control" id="numDoc" required aria-required="true">
-         <p class="help-block error hidden">Ingresá tu número de documento</p>
+         <p class="help-block error d-none">Ingresá tu número de documento</p>
        </div>
       </div>
       </div>
      <div class="row">
-       <div class="form-group item-form">
-         <div class="col-xs-12">
+      <div class="col-md-8">
+        <div class="form-group item-form">
            <label for="nro-tramite">Número de trámite del DNI</label>
-           <p>
+           <p class="help-block">
              <a onclick="popshow()" role="button" data-toggle="popover" data-trigger="focus">¿Dónde encuentro mi número de trámite?</a>
            </p>
-           <div class="content-popover hidden bg-white" id="content-popover">
+           <div class="content-popover d-none bg-white" id="content-popover">
              <div class="arrow-popover"></div>
              <div class='col-xs-12 p-x-0'>
                <span class='close'  onclick="pophidde()">&times;</span>
@@ -645,13 +645,11 @@
                <img src='../../img/dni_id.png' alt='imagen-dni' class='img-responsive'>
              </div>
            </div>
-           <div class="row">
-             <div class="col-md-6">
+
                <div class="form-group  item-form">
                  <input type="number" class="form-control" id="nro-tramite" required="" min="0" aria-required="true">  
                </div>
-             </div>
-           </div>
+
          </div>
        </div>
      </div>
@@ -668,7 +666,7 @@
         <option value="">Vínculo de hecho</option>
         <option value="">Separado/a</option>
       </select>
-      <p class="help-block error hidden">Ingresá tu estado civil</p>
+      <p class="help-block error d-none">Ingresá tu estado civil</p>
      </div>
      </div>
      
@@ -924,7 +922,7 @@
              <option value="ZMB">Zambia</option>                        
              <option value="ZWE">Zimbabue</option>                  
            </select>
-       <p class="help-block error hidden">Ingresá tu país de nacimiento</p>
+       <p class="help-block error d-none">Ingresá tu país de nacimiento</p>
      </div>
      </div>
      </div>
@@ -943,14 +941,14 @@
            
            <label for="email">Dirección de correo electrónico</label>
            <input type="email" name="email" class="form-control" id="email" required aria-required="true">
-           <p class="help-block error hidden">Ingresá un correo electrónico <br> El correo electrónico tiene un formato no válido</p>
+           <p class="help-block error d-none">Ingresá un correo electrónico <br> El correo electrónico tiene un formato no válido</p>
          </div>
        </div>
      
      <div class="row">
        <div class="col-sm-12">
          <fieldset>
-           <legend>Teléfono móvil</legend>
+           <legend><p class="h5 mb-0">Teléfono móvil</p></legend>
              <div class="row">
                    <div class="col-sm-12">
                      <p class="help-block" id="help_telefono_movil">Incluí el <a href="https://www.argentina.gob.ar/codigos-de-area-telefonicos-de-argentina" aria-label="Ingresá código de área. Si no lo sabés consultá en este enlace" target="_blank">código de área</a> de tu localidad</p>
@@ -960,7 +958,7 @@
                      <span class="input-group-addon">0</span>
                      <input aria-label="Código de area de teléfono móvil" class="form-control" id="cellphone_area_code" required aria-required="true" type="text"> 
                    </div>
-                   <p class="help-block error hidden">Ingresá el código de área</p>
+                   <p class="help-block error d-none">Ingresá el código de área</p>
                  </div> 
                  <div class="form-group col-xs-12 col-sm-8 item-form">
                    <div class="input-group">
@@ -968,7 +966,7 @@
                      <span class="input-group-addon">15</span>
                      <input aria-label="número de teléfono móvil" class="form-control" id="cellphone_number" required aria-required="true" type="text"> 
                    </div>
-                   <p class="help-block error hidden">Ingresá tu número de teléfono móvil</p>
+                   <p class="help-block error d-none">Ingresá tu número de teléfono móvil</p>
                  </div>
               </div>      
          </fieldset>
@@ -979,7 +977,7 @@
      <div class="row">
        <div class="col-sm-12">
          <fieldset>
-           <legend>Teléfono fijo</legend>
+           <legend><p class="h5 mb-0">Teléfono fijo</p></legend>
              <div class="row">
                    <div class="col-sm-12">
                      <p class="help-block" id="help_telefono_fijo">Incluí el <a href="https://www.argentina.gob.ar/codigos-de-area-telefonicos-de-argentina" aria-label="Ingresá código de área. Si no lo sabés consultá en este enlace" target="_blank">código de área</a> de tu localidad</p>
@@ -989,12 +987,12 @@
                      <span class="input-group-addon">0</span>
                      <input aria-label="Código de area de teléfono fijo" class="form-control" id="phone_area_code" required aria-required="true" type="text"> 
                    </div>
-                   <p class="help-block error hidden">Ingresá el código de área</p>
+                   <p class="help-block error d-none">Ingresá el código de área</p>
                  </div> 
      
                  <div class="form-group col-xs-12 col-sm-8 item-form">
                      <input aria-label="número de teléfono fijo" class="form-control" id="phone_number" required aria-required="true" type="text"> 
-                   <p class="help-block error hidden">Ingresá tu número de teléfono fijo</p>
+                   <p class="help-block error d-none">Ingresá tu número de teléfono fijo</p>
                  </div>
       
              </div>      
@@ -1260,7 +1258,7 @@
              <option value="ZMB">Zambia</option>                        
              <option value="ZWE">Zimbabue</option>                  
            </select>
-           <p class="help-block error hidden">Ingresá un país</p>
+           <p class="help-block error d-none">Ingresá un país</p>
          </div>
        </div>
      
@@ -1293,7 +1291,7 @@
                <option value="Tierra del Fuego">Tierra del Fuego</option>
                <option value="Tucumán">Tucumán</option>        
            </select>
-           <p class="help-block error hidden">Ingresá una provincia</p>
+           <p class="help-block error d-none">Ingresá una provincia</p>
          </div>
        </div>       
      
@@ -1305,9 +1303,9 @@
              <option value="">Municipio 1</option>
              <option value="">Municipio 2</option>
              <option value="">Municipio 3</option>
-             <option class="hidden" value="Prueba">Prueba</option>
+             <option class="d-none" value="Prueba">Prueba</option>
            </select>
-           <p class="help-block error hidden">Ingresá un Municipio</p>
+           <p class="help-block error d-none">Ingresá un Municipio</p>
          </div>
        </div>     
      
@@ -1320,7 +1318,7 @@
              <option value="">Localidad 2</option>
              <option value="">Localidad 3</option>
            </select>
-           <p class="help-block error hidden">Ingresá una localidad</p>
+           <p class="help-block error d-none">Ingresá una localidad</p>
          </div>
        </div>
      
@@ -1328,7 +1326,7 @@
          <div class="col-md-4 form-group item-form">
            <label for="address_postalcode">Código postal</label>
            <input type="text" name="address_postalcode" class="form-control" id="address_postalcode" required aria-required="true">
-           <p class="help-block error hidden">Ingresá un código postal</p>
+           <p class="help-block error d-none">Ingresá un código postal</p>
          </div>
        </div>     
      
@@ -1336,26 +1334,26 @@
          <div class="col-md-8 form-group item-form">
            <label for="address_street">Calle</label>
            <input type="text" name="address_street" class="form-control" id="address_street" required aria-required="true">
-           <p class="help-block error hidden">Ingresá una calle</p>
+           <p class="help-block error d-none">Ingresá una calle</p>
          </div>  
      
          <div class="col-md-4 form-group item-form">
            <label for="address_street_number">Número de calle</label>
            <input type="text" class="form-control" id="address_street_number" required aria-required="true">
-           <p class="help-block error hidden">Ingresá un número de calle</p>
+           <p class="help-block error d-none">Ingresá un número de calle</p>
          </div> 
        </div>
        <div class="row">
          <div class="col-md-4 form-group item-form">
            <label for="address_floor_number">Piso</label>
            <input type="text" name="address_floor_number" class="form-control" id="address_floor_number" required aria-required="true">
-           <p class="help-block error hidden">Ingresá un piso</p>
+           <p class="help-block error d-none">Ingresá un piso</p>
          </div>  
      
          <div class="col-md-4 form-group item-form">
            <label for="address_apartment_number">Departamento</label>
            <input type="text" class="form-control" id="address_apartment_number" required aria-required="true">
-           <p class="help-block error hidden">Ingresá un un departamento</p>
+           <p class="help-block error d-none">Ingresá un un departamento</p>
          </div> 
        </div>  
      
@@ -1369,7 +1367,7 @@
         <div class="col-md-4 form-group item-form">
          <label for="cuit">CUIT</label>
          <input type="number" min="1" class="form-control" id="cuit" required aria-required="true">
-         <p class="help-block error hidden">Ingresá un CUIT <br> El CUIT tiene un formato inválido</p>
+         <p class="help-block error d-none">Ingresá un CUIT <br> El CUIT tiene un formato inválido</p>
        </div>
      </div>
      
@@ -1383,7 +1381,7 @@
          <label for="vehicule_plaque">Patente de vehículo</label>
          <p class="help-block" id="help_vehicule_plaque">Ejemplo: AAA123 o AA123BB</p>
          <input type="text" class="form-control" id="vehicule_plaque" required aria-required="true" aria-describedby="help_vehicule_plaque">
-         <p class="help-block error hidden">Ingresá una patente</p>
+         <p class="help-block error d-none">Ingresá una patente</p>
        </div>
      </div>
      </div>
@@ -1410,7 +1408,7 @@
          </div>
        </div>
      
-       <p class="help-block error hidden">Ingresá una palabra para buscar</p>
+       <p class="help-block error d-none">Ingresá una palabra para buscar</p>
      </div>
      </div>
      
@@ -1424,14 +1422,14 @@
       <div class="col-md-8 form-group item-form">
        <label for="comentarioBreve">Dato o comentario breve</label>
        <input class="form-control" id="comentarioBreve" type="text">
-       <p class="help-block error hidden">Ingresá el dato o comentario breve</p>
+       <p class="help-block error d-none">Ingresá el dato o comentario breve</p>
      </div>
      </div>
      <div class="row">
       <div class="col-md-8 form-group item-form">
        <label for="comentarioLargos">Comentario largos</label>
        <textarea class="form-control" id="comentarioLargos" rows="5"></textarea>
-       <p class="help-block error hidden">Ingresá el comentario largo</p>
+       <p class="help-block error d-none">Ingresá el comentario largo</p>
      </div>
      </div>
      
@@ -1454,7 +1452,7 @@
                <input type="radio" name="opciones" id="opcion2" value="opcion2" required aria-required="true">
                Opción 1
              </label>        
-             <p class="help-block error hidden">Ingresá el dato</p>
+             <p class="help-block error d-none">Ingresá el dato</p>
            </div>
      
          </div>
@@ -1485,7 +1483,7 @@
              Opción 3
            </label>
          </div>  
-         <p class="help-block error hidden">Ingresá el dato</p>
+         <p class="help-block error d-none">Ingresá el dato</p>
        </div>
      
      </div>
@@ -1508,7 +1506,7 @@
         <option value="opciones9">Opción 9</option>
         <option value="opciones10">Opción 10</option>
       </select>
-      <p class="help-block error hidden">Ingresá el dato</p>
+      <p class="help-block error d-none">Ingresá el dato</p>
      </div>
      </div>
      
@@ -1536,7 +1534,7 @@
              <input id="Option_3" name="Option_3" type="checkbox" value="">Option 3
            </label>
          </div>
-         <p class="help-block error hidden">Ingresá el dato</p>
+         <p class="help-block error d-none">Ingresá el dato</p>
        </div>
      </fieldset>
      </div> 
@@ -1546,7 +1544,7 @@
       <div class="form-group col-md-4 item-form">
        <label for="fecha">Fecha</label>
        <input type="date" class="form-control" id="fecha" required aria-required="true">
-       <p class="help-block error hidden">Ingresá una fecha válida</p>
+       <p class="help-block error d-none">Ingresá una fecha válida</p>
      </div>
      </div>
      
@@ -1568,7 +1566,7 @@
          <option value="11">Noviembre</option>
          <option value="12">Diciembre</option>
        </select>
-       <p class="help-block error hidden">Ingresá el mes</p>
+       <p class="help-block error d-none">Ingresá el mes</p>
      </div>
      </div>
      
@@ -1600,14 +1598,14 @@
      
          $('input.conError:radio').change(function(){
            if($(this).is(":checked")) {
-             $('.error').removeClass("hidden");
+             $('.error').removeClass("d-none");
              $('.item-form').addClass('has-error has-feedback');
              mostrarErrores();
            }
          });
          $('input.sinError:radio').change(function(){
            if($(this).is(":checked")) {
-             $('.error').addClass("hidden");
+             $('.error').addClass("d-none");
              $('.item-form').removeClass('has-error has-feedback');
            }
          });
@@ -1643,10 +1641,10 @@
      
      var content_popover = document.getElementById('content-popover');
      function popshow(){
-       content_popover.classList.toggle('hidden');
+       content_popover.classList.toggle('d-none');
      }
      function pophidde(){
-       content_popover.classList.add('hidden')
+       content_popover.classList.add('d-none')
      }
      </script>
      
@@ -1685,7 +1683,7 @@
            node.setAttribute('aria-invalid', 'true');
            node.parentElement.classList.add("has-error");
            node.parentElement.classList.add("has-feedback");
-           node.nextElementSibling.classList.remove("hidden");
+           node.nextElementSibling.classList.remove("d-none");
            
          }
      
@@ -1698,7 +1696,7 @@
              node.setAttribute('aria-invalid', 'false');
              node.parentElement.classList.remove("has-error");
              node.parentElement.classList.remove("has-feedback");
-             node.nextElementSibling.classList.add("hidden");
+             node.nextElementSibling.classList.add("d-none");
              node.focus();
            }
            
