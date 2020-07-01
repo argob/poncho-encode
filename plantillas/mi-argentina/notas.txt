@@ -2,13 +2,7 @@
 
 
 
-ARGENTINA
 
-- fix panel destacado con icono argentina
-- terminar plantillas
-- minificar poncho
-- hay argentina.css?
-- Para Panel destacado con ícono y fondo de color
 
 
 
