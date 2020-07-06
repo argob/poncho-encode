@@ -144,12 +144,12 @@
 
    
 <header>
-  <nav class="navbar navbar-top navbar-default" role="navigation">
+  <nav class="navbar navbar-top navbar-default" role="navigation" style="background-color: #37BBED;">
     <div class="container">
       <div>
         <div class="navbar-header">
           <a class="navbar-brand" href="/proyectos/argentina/" aria-label="Argentina.gob.ar Presidencia de la Nación">
-            <img alt="Argentina.gob.ar" src="img/argentinagob.svg" height="50">
+            <img alt="Argentina.gob.ar" src="img/argentinagob-blanco.svg" height="50">
           </a>
           <a class="btn btn-link btn-login visible-xs" href="/proyectos/mi-argentina/v3/"><i class="icono-arg-mi-argentina fa-fw"></i></a>
           <a class="btn btn-primary btn-login visible-xs" href="#" onclick="$('.navbar.navbar-top').addClass('state-search');"><span class="fa fa-search fa-fw"></span></a>
@@ -159,7 +159,7 @@
           <li>
             <div class="input-group">
               
-              <input id="buscar" type="text" class="form-control" aria-label="Buscar trámites, servicios o áreas" placeholder="Buscar trámites, servicios o áreas ...">
+              <input id="buscar" type="text" class="form-control" aria-label="Buscar trámites, servicios o áreas" placeholder="Buscar trámites, servicios o áreas ..." style="border: none;">
               <span class="input-group-btn">
                 <button class="btn btn-primary" id="buscar-btn" type="button" aria-label="Buscar"><i class="fa fa-search"></i></button>
               </span>
@@ -207,7 +207,13 @@
   <div class="overlay"></div>
 </section> -->
 
-<section style="background-color: #C1EAFA;">
+
+
+
+
+
+
+<section class="m-t-2 p-t-1 p-b-0">
 
 
 
@@ -228,13 +234,17 @@
       <div class="pane-content">
 
 
-         <div class="row panels-row m-t-1" id="destacados">
 
+
+
+
+
+         <div class="row panels-row " id="destacados">
 
 
             <div class="col-xs-12 col-sm-6 col-md-6">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/jumbotron/public/certificado-circulacion-landing_0.jpg?itok=0XE3gN-x); min-height: 300px;" class="panel-heading"></div>
+               <a href="#" class="panel panel-default" style="background-color: #F79525;">
+                  <div style="background-image:url(https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/media/articles/75414/1585511676200329011-0.jpg?itok=iWTl8zBI); min-height: 200px;" class="panel-heading"></div>
                   <div class="panel-body">
                      <h3>Certificado de circulación - Coronavirus COVID-19</h3>
                      <div class="text-muted">
@@ -244,9 +254,9 @@
                </a>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/nuevo-coronavirus-covid-19.jpg?itok=rfZj0rlh); min-height: 300px;" class="panel-heading"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <a href="#" class="panel panel-default" style="background-color: #ED3D8F;">
+                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/nuevo-coronavirus-covid-19.jpg?itok=rfZj0rlh); min-height: 200px;" class="panel-heading"></div>
                   <div class="panel-body">
                      <h3>Nuevo Coronavirus COVID-19</h3>
                      <div class="text-muted">
@@ -257,19 +267,9 @@
             </div>
 
 
-
-         </div>
-
-
-
-
-         <div class="row panels-row " id="destacados">
-
-
-
             <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/atp_atajo_480x320.png?itok=7MK05Mis);" class="panel-heading"></div>
+               <a href="#" class="panel panel-default" style="background-color: #9284BE;">
+                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/atp_atajo_480x320.png?itok=7MK05Mis); min-height: 200px;" class="panel-heading"></div>
                   <div class="panel-body">
                      <h3>Programa ATP</h3>
                      <div class="text-muted">
@@ -279,41 +279,9 @@
                </a>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/alerta-home-dengue.jpg?itok=ezmEqyID);" class="panel-heading"></div>
-                  <div class="panel-body">
-                     <h3>Dengue</h3>
-                     <div class="text-muted">
-                        <p>Qué es, cuáles son los síntomas, cómo se transmite, se trata y se previene el dengue.</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/listado/public/imagenAtajo/plan-contra-hambre-atajo-2_0.png?itok=A92ATcln);" class="panel-heading"></div>
-                  <div class="panel-body">
-                     <h3>Argentina contra el hambre</h3>
-                     <div class="text-muted">
-                        <p>Hacia un país con soberanía y seguridad alimentaria.</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-               <a href="#" class="panel panel-default">
-                  <div style="background-image:url(https://www.argentina.gob.ar/sites/default/files/styles/jumbotron/public/screen_shot_2018-09-06_at_5.30.22_pm.jpg?itok=0oJp7Ltm);" class="panel-heading"></div>
-                  <div class="panel-body">
-                     <h3>Consultar fecha, lugar y medio de cobro del IFE</h3>
-                     <div class="text-muted">
-                        <p>En caso de que tu inscripción al IFE haya sido aprobada y ya hayas elegido la forma de cobro, podés hacer tu consulta.</p>
-                     </div>
-                  </div>
-               </a>
-            </div>
+
 
          </div>
 
@@ -334,11 +302,17 @@
 </div>
 
 
+<style>
+   #destacados h3, #destacados p{
+      color: #fff !important;
+   }
+</style>
+
 
 
 </section>
 
-<section>
+<section class="p-t-0">
   <div class="container">
 
  
@@ -348,6 +322,7 @@
    <div>
 
    
+
 
 
 
@@ -623,8 +598,6 @@
 
 
 
-
-
    <div class="panel-separator"></div>
    <div class="panel-pane pane-texto">
       <div class="pane-content">
@@ -698,9 +671,7 @@
 
 
 
-
-
-
+<!-- algo -->
 
 
 
