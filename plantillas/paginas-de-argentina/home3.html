@@ -242,7 +242,7 @@
          <div class="row panels-row " id="destacados">
 
 
-            <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-12 col-md-6">
                <a href="#" class="panel panel-default" style="background-color: #F79525;">
                   <div style="background-image:url(https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/media/articles/75414/1585511676200329011-0.jpg?itok=iWTl8zBI); min-height: 200px;" class="panel-heading"></div>
                   <div class="panel-body">
@@ -775,25 +775,36 @@ $(function(){
     <footer class="main-footer">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <img class="image-responsive" alt="Argentina.gob.ar - Presidencia de la Nación" src="img/logo_argentina_unida.svg" height="25">
-        <p class="text-muted small"><a href="https://creativecommons.org/licenses/by/2.5/ar/">Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Reconocimiento 2.5 Argentina License</a></p>
-      </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-4 col-sm-6">
+         <h3>Servicios</h3>
         <ul>
-          <li><a href="/servicios">Trámites y servicios</a></li>
-          <li><a href="/turnos">Turnos</a></li>
-          <li><a href="/organismos">Organismos del Estado</a></li>
-          <li><a href="http://mapadelestado.modernizacion.gob.ar/" target="_blank" aria-label="Mapa del Estado - Sitio Externo">Mapa del Estado</a></li>
+         <li><a href="#">Buscar trámites y servicios</a></li>
+         <li><a href="#">Sacar turnos</a></li>
+         <li><a href="#">Ingresar a Mi Argentina</a></li>
         </ul>
       </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-4 col-sm-6">
+         <h3>Acerca de Argentina</h3>
         <ul>
-          <li><a href="/acerca">Acerca de este sitio</a></li>
-          <li><a href="/terminos-y-condiciones">Términos y condiciones</a></li>
-          <li><a href="/ayuda">Ayuda</a></li>
+          <li><a href="#">Organismos del Estado</a></li>
+          <li><a href="#">Leyes argentinas</a></li>
+          <li><a href="#" target="_blank" aria-label="Mapa del Estado - Sitio Externo">Mapa del Estado</a></li>
         </ul>
       </div>
+      <div class="col-md-4 col-sm-6">
+         <h3>Acerca de este sitio</h3>
+        <ul>
+          <li><a href="#">Acerca de este sitio</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Guía para crear contenidos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 m-y-1">
+         <img class="image-responsive" alt="Argentina.gob.ar - Presidencia de la Nación" src="img/logo_argentina_unida-blanco.svg" height="40">
+         <!-- <p class="text-muted small"><a href="https://creativecommons.org/licenses/by/2.5/ar/">Los contenidos de Argentina.gob.ar están licenciados bajo Creative Commons Reconocimiento 2.5 Argentina License</a></p> -->
+       </div>
     </div>
   </div>
 </footer>
@@ -842,6 +853,45 @@ $(function(){
    .tramites-iconos .media-left i.fa {
       padding: 30px 20px 20px 20px;
    }
+
+   header nav .btn-link {
+      background: transparent !important;
+      color: #fff !important;
+      border-color: transparent !important;
+      text-decoration: underline;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 20px !important;
+   }
+   header nav .btn-link:hover, header nav .btn-link:focus, header nav .btn-link:active {
+      background: transparent !important;
+   }
+   header nav input#buscar {
+      opacity: 0.7;
+   }
+   header nav input#buscar:focus {
+      opacity: 1;
+   }
+
+   .panel h3, .panel .h3 {
+    color: #0072bb;
+   }
+
+   .tramites-iconos .panel h3, .tramites-iconos .panel .h3 {
+    color: #333;
+   }
+
+
+
+
+   .main-footer {
+    padding: 40px 0;
+    background-color: #37BBED;
+    border: none;
+}
+.main-footer h3, .main-footer a {
+   color: #fff;
+}
 
 
 
